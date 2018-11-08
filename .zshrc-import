@@ -1,0 +1,100 @@
+alias work='cd ~/work-in-progress/'
+alias home='cd ~'
+
+## get rid of command not found ##
+alias cd..='cd ..'
+
+## a quick way to get out of current directory ##
+alias ..='cd ..'
+
+alias editprofile= 'subl ~/.zshrc'
+alias refresh-profiles= 'source ~/.zshrc'
+alias speed='wget -O /dev/null http://speedtest.wdc01.softlayer.com/downloads/test10.zip'
+alias speedtest='/usr/bin/open -a "/Applications/Google Chrome.app" "http://www.speedtest.net/"'
+#alias handbrake='/Volumes/HandBrakeCLI-1.0.1/HandBrakeCLI --output ~/Desktop/vids --input'
+alias cleanshots='automator ~/Dropbox/delete-IFTTT-screensaver-files.workflow'
+alias fixcam='sudo killall VDCAssistant'
+
+## gulp
+alias build='gulp clean && gulp build'
+
+## git
+alias gs='git status'
+alias ga='git add .'
+alias gaa='git add --all'
+# alias gc='git commit -m'
+alias gca='git commit --amend -m'
+alias gl='git pull'
+alias gp='git push'
+alias gco='git checkout'
+alias gch='git checkout'
+alias gk='git checkout'
+alias gpom="git pull origin master"
+alias gd='git diff | mate'
+alias gb='git branch'
+alias gba='git branch -a'
+alias del='git branch -d'
+alias gr='git remote'
+alias gcl='git clone'
+# just in case
+alias got='git '
+alias get='git '
+
+## save passphrase for ssh to prevent entering passpharse after every push and pull
+## https://stackoverflow.com/questions/10032461/git-keeps-asking-me-for-my-ssh-key-passphrase
+alias savessh='eval $(ssh-agent) && ssh-add -K'
+alias newmac="openssl rand -hex 6 | sed 's/\(..\)/\1:/g; s/.$//' | xargs sudo ifconfig en0 ether"
+alias sitespeed="docker run --shm-size=1g --rm -v "$(pwd)":/sitespeed.io sitespeedio/sitespeed.io:6.2.3 "
+
+## adds VScode insider to code alias
+alias code="code-insiders"
+alias c="code-insiders ."
+
+## adds simpler Vi
+alias v="vi"
+
+dns() {
+ echo "-------- NSLOOKUP --------"
+ nslookup "$1"
+ echo "-------- Dig --------"
+ dig -t ANY "$1"
+ echo "-------- WHOIS --------"
+ whois "$1"
+}
+
+## see/get script here
+alias wpsetup="~/wp-setup.sh"
+
+## migratedb pro (make sure WP plugin is installed and activated)
+alias wpdb="wp migratedb profile"
+alias db="wp migratedb profile 1"
+
+## see/get script here
+alias makegifs='~/make-gifs.sh'
+
+## yarn
+alias y='yarn'
+alias ys='yarn start'
+alias yt='yarn test'
+alias ya='yarn add'
+alias yad='yarn add --dev'
+
+## vtx
+alias vtx-docker='cd docker/compose/resonance-dev && docker-compose up'
+alias vtx-open='cd ~/wip/vtx/site && code . && cd .. && cd docker/compose/resonance-dev && docker-compose up'
+
+## terminal auto fixing (too crude for me)
+eval $(thefuck --alias)
+alias please='fuck'
+alias pls='fuck'
+
+## hub
+alias git=hub
+
+## Sync Dotfiles and Config Using Git
+## setup: $ `git clone --bare git@github.com:sodiumhalogenteam/sync-dot-files.git $HOME/.cfg`
+## use: $`config status` or $`config add .zshrc` or $`config commit -m "message here"`
+## source: https://medium.com/@augusteo/simplest-way-to-sync-dotfiles-and-config-using-git-14051af8703a
+
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+
