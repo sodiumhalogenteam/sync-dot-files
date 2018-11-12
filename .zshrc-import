@@ -93,6 +93,7 @@ alias git=hub
 
 ## Sync Dotfiles and Config Using Git
 ## setup: $ `git clone --bare git@github.com:sodiumhalogenteam/sync-dot-files.git $HOME/.cfg`
+## setup: $ `config checkout -f && config pull`
 ## use: $`config status` or $`config add .zshrc` or $`config commit -m "message here"`
 ## source: https://medium.com/@augusteo/simplest-way-to-sync-dotfiles-and-config-using-git-14051af8703a
 
