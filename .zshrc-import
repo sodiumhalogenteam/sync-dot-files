@@ -102,6 +102,6 @@ alias git=hub
 ## source: https://medium.com/@augusteo/simplest-way-to-sync-dotfiles-and-config-using-git-14051af8703a
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 # check for updates
-config pull && source ~/.zshrc
+config pull
 
 
