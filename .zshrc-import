@@ -40,6 +40,9 @@ alias gcl='git clone'
 alias got='git '
 alias get='git '
 
+## node
+alias rmnode='rm -rf ./node_modules'
+
 ## save passphrase for ssh to prevent entering passpharse after every push and pull
 ## https://stackoverflow.com/questions/10032461/git-keeps-asking-me-for-my-ssh-key-passphrase
 alias savessh='eval $(ssh-agent) && ssh-add -K'
@@ -76,6 +79,7 @@ alias makegifs='~/make-gifs.sh'
 alias y='yarn'
 alias ys='yarn start'
 alias yt='yarn test'
+alias ytc='yarn test --coverage'
 alias ya='yarn add'
 alias yad='yarn add --dev'
 
