@@ -76,6 +76,8 @@ alias makegifs='~/make-gifs.sh'
 ## yarn
 alias y='yarn'
 alias ys='yarn start'
+alias yd='yarn dev'
+alias yb='yarn build'
 alias yt='yarn test'
 alias ytc='yarn test --coverage'
 alias ya='yarn add'
