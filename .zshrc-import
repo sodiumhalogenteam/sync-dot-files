@@ -7,6 +7,10 @@ alias cd..='cd ..'
 ## a quick way to get out of current directory ##
 alias ..='cd ..'
 
+## fix and faster open directory ##
+alias open.='open .'
+alias o.='open .'
+
 alias speed='wget -O /dev/null http://speedtest.wdc01.softlayer.com/downloads/test10.zip'
 alias speedtest='/usr/bin/open -a "/Applications/Google Chrome.app" "http://www.speedtest.net/"'
 alias fixcam='sudo killall VDCAssistant'
