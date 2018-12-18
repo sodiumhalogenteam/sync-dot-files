@@ -104,6 +104,7 @@ alias pls='fuck'
 alias git=hub
 
 ## Sync Dotfiles and Config Using Git
+## setup: $ `alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'`
 ## setup: $ `git clone --bare git@github.com:sodiumhalogenteam/sync-dot-files.git $HOME/.cfg`
 ## setup: $ `config checkout -f && config pull`
 ## use: $`config status` or $`config add .zshrc` or $`config commit -m "message here"`
