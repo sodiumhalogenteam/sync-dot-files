@@ -48,6 +48,16 @@ alias get='git '
 ## node
 alias rmnode='rm -rf ./node_modules'
 
+## docker
+alias d='docker'
+## docker-compose
+alias dc='docker-compose'
+alias dcu='docker-compose up'
+alias dcd='docker-compose down'
+alias dcb='docker-compose build'
+alias dcdu='docker-compose down && docker-compose build && docker-compose up'
+alias dcp='docker-compose down && git pull && docker-compose build && docker-compose up'
+
 ## save passphrase for ssh to prevent entering passpharse after every push and pull
 ## https://stackoverflow.com/questions/10032461/git-keeps-asking-me-for-my-ssh-key-passphrase
 alias savessh='eval $(ssh-agent) && ssh-add -K'
