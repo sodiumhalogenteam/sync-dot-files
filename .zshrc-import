@@ -104,6 +104,9 @@ alias vtx-docker='cd docker/compose/resonance-dev && docker-compose up'
 alias vtx-open='cd ~/wip/vtx/site && code . && cd .. && cd docker/compose/resonance-dev && docker-compose up'
 alias vtxo='cd ~/wip/vtx/site && code . && cd .. && cd docker/compose/resonance-dev && docker-compose up'
 
+# costarters
+alias csmo='cd ~/wip/eship-platform/frontend && code . && cd ../backend && docker-compose up'
+
 ## terminal auto fixing (too crude for me)
 eval $(thefuck --alias)
 alias please='fuck'
