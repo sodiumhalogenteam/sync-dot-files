@@ -105,7 +105,7 @@ alias vtx-open='cd ~/wip/vtx/site && code . && cd .. && cd docker/compose/resona
 alias vtxo='cd ~/wip/vtx/site && code . && cd .. && cd docker/compose/resonance-dev && docker-compose up'
 
 ## marketplace - CO.STARTERS
-alias coso='cd ~/wip/eship-marketplace/frontend && code . && .. && cd backend && docker-compose up'
+alias coso='cd ~/wip/eship-platform/frontend && code . && .. && cd backendv2 && docker-compose up'
 
 # costarters
 alias csmo='cd ~/wip/eship-platform/frontend && code . && cd ../backend && docker-compose up'
