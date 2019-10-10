@@ -119,6 +119,9 @@ alias pls='fuck'
 ## hub
 alias git=hub
 
+## see/get script here
+alias wpsetup="~/wp-setup.sh"
+
 ## Sync Dotfiles and Config Using Git
 ## setup: $ `alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'`
 ## setup: $ `git clone --bare git@github.com:sodiumhalogenteam/sync-dot-files.git $HOME/.cfg`
