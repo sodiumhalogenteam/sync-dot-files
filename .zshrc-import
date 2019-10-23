@@ -119,6 +119,9 @@ alias pls='fuck'
 ## hub
 alias git=hub
 
+## git ssh key
+alias cpkey="pbcopy < ~/.ssh/id_rsa.pub"
+
 ## see/get script here
 alias wpsetup="~/wp-setup.sh"
 
