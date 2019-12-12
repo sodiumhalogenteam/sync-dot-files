@@ -99,6 +99,9 @@ alias ytc='yarn test --coverage'
 alias ya='yarn add'
 alias yad='yarn add --dev'
 
+# react-native
+alias rn='npx react-native run-ios'
+
 ## vtx
 alias vtx-docker='cd docker/compose/resonance-dev && docker-compose up'
 alias vtx-open='cd ~/wip/vtx/site && code . && cd .. && cd docker/compose/resonance-dev && docker-compose up'
