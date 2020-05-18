@@ -45,6 +45,7 @@ alias gcl='git clone'
 alias got='git '
 alias get='git '
 alias gin='touch .gitignore && echo "node_modules/" >> .gitignore && git rm -r --cached node_modules ; git status'
+alias gr='git reset'
 
 ## node
 alias rmnode='rm -rf ./node_modules'
