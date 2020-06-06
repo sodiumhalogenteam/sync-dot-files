@@ -130,6 +130,10 @@ alias cpkey="pbcopy < ~/.ssh/id_rsa.pub"
 ## see/get script here
 alias wpsetup="~/wp-setup.sh"
 
+## MISC
+alias weather="curl http://wttr.in"
+alias rain="curl http://v2.wttr.in"
+
 ## Sync Dotfiles and Config Using Git
 ## setup: $ `alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'`
 ## setup: $ `git clone --bare git@github.com:sodiumhalogenteam/sync-dot-files.git $HOME/.cfg`
