@@ -101,6 +101,9 @@ alias ytc='yarn test --coverage'
 alias ya='yarn add'
 alias yad='yarn add --dev'
 
+## yarn - update all packages and update package.json
+alias yup="ncu --upgrade --upgradeAll && yarn upgrade"
+
 # react-native
 alias rn='npx react-native run-ios'
 
