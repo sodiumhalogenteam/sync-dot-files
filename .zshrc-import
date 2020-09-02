@@ -106,6 +106,9 @@ alias yup='ncu --upgrade --interactive && yarn upgrade'
 
 # react-native
 alias rn='npx react-native run-ios'
+alias rn-clean='npx react-native-clean-project'
+alias rnclean='npx react-native-clean-project'
+alias rnc='npx react-native-clean-project'
 
 ## vtx
 alias vtx-docker='cd docker/compose/resonance-dev && docker-compose up'
