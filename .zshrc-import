@@ -100,6 +100,7 @@ alias yt='yarn test'
 alias ytc='yarn test --coverage'
 alias ya='yarn add'
 alias yad='yarn add --dev'
+alias ycc='yarn cache clean'
 
 ## yarn - update all packages and update package.json
 alias yup='ncu --upgrade --interactive && yarn upgrade'
@@ -109,6 +110,9 @@ alias rn='npx react-native run-ios'
 alias rn-clean='npx react-native-clean-project'
 alias rnclean='npx react-native-clean-project'
 alias rnc='npx react-native-clean-project'
+alias rns11='npx react-native run-ios'
+alias rns8='npx react-native run-ios --simulator="iPhone 8"'
+alias rns11promax='npx react-native run-ios --simulator="iPhone 11 Pro Max"'
 
 ## vtx
 alias vtx-docker='cd docker/compose/resonance-dev && docker-compose up'
