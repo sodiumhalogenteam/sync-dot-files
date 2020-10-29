@@ -46,7 +46,8 @@ alias got='git '
 alias get='git '
 alias gin='touch .gitignore && echo "node_modules/" >> .gitignore && git rm -r --cached node_modules ; git status'
 alias gr='git reset'
-alias gitzip='zip modified.zip $(git status -s | egrep "M|A|AM" | rev | cut -d" " -f1 | rev)' # zips up uncommited changes
+## zips up uncommited changes
+alias gitzip='zip modified.zip $(git status -s | egrep "M|A|AM" | rev | cut -d" " -f1 | rev)'
 
 ## node
 alias rmnode='rm -rf ./node_modules'
