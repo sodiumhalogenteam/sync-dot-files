@@ -1,5 +1,8 @@
+## location shortcuts
 alias work='cd ~/work-in-progress/'
 alias home='cd ~'
+alias ff='work && cd funfact-app-2019/native/'
+alias ffxc='open ~/work-in-progress/funfact-app-2019/native/FunFact.xcworkspace'
 
 ## get rid of command not found ##
 alias cd..='cd ..'
