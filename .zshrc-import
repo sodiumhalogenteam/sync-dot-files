@@ -1,5 +1,6 @@
 ## location shortcuts
 alias work='cd ~/wip/'
+alias wip='cd ~/wip/'
 alias home='cd ~'
 
 ## get rid of command not found ##
