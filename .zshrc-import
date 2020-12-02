@@ -126,7 +126,7 @@ alias optico='code ~/vertex_work/optic && cd ~/vertex_work/optic && docker-compo
 
 ## funfact
 alias ff='work && cd funfact-app-2019/native/'
-alias ffxc='open ~/wip/funfact-app-2019/native/FunFact.xcworkspace'
+alias ffxc='open ~/wip/funfact-app-2019/native/ios/FunFact.xcworkspace'
 
 ## marketplace - CO.STARTERS
 alias coso='cd ~/wip/eship-platform/frontend && code . && .. && cd backendv2 && docker-compose up'
