@@ -35,6 +35,7 @@ alias gco='git checkout'
 alias gch='git checkout'
 alias gk='git checkout'
 alias gkm='git checkout master'
+alias gkma='git checkout main'
 alias gkb='git checkout -b'
 alias gpom="git pull origin master"
 alias gd='git diff | mate'
