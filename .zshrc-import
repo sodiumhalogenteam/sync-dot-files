@@ -135,6 +135,9 @@ alias coso='cd ~/wip/eship-platform/frontend && code . && .. && cd backendv2 && 
 # costarters
 alias csmo='cd ~/wip/eship-platform/frontend && code . && cd ../backend && docker-compose up'
 
+# backend - docker helpers
+alias dcbuild='dc stop api && dc build && dc up -d api'
+
 ## terminal auto fixing (too crude for me)
 eval $(thefuck --alias)
 alias please='fuck'
