@@ -150,6 +150,9 @@ alias git=hub
 ## git ssh key
 alias cpkey="pbcopy < ~/.ssh/id_rsa.pub"
 
+## search and format big cli lists - source -> Elijah Manor
+alias tldrf='tldr --list | fzf --preview "tldr {1} --color=always" --preview-window=right,70% | xargs tldr'
+
 ## see/get script here
 alias wpsetup="~/wp-setup.sh"
 
