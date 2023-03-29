@@ -106,6 +106,7 @@ alias ytc='yarn test --coverage'
 alias ya='yarn add'
 alias yad='yarn add --dev'
 alias ycc='yarn cache clean'
+alias yw="yarn workspace"
 
 ## yarn - update all packages and update package.json
 alias yup='ncu --upgrade --interactive && yarn upgrade'
