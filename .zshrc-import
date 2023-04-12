@@ -168,7 +168,7 @@ alias rain="curl http://v2.wttr.in"
 ## use: $`config status` or $`config add .zshrc` or $`config commit -m "message here"`
 ## source: https://medium.com/@augusteo/simplest-way-to-sync-dotfiles-and-config-using-git-14051af8703a
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
-# check for updates automaticly
+# check for updates automatically
 config pull
 
 
