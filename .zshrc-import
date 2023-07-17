@@ -54,6 +54,7 @@ alias gitzip='zip modified.zip $(git status -s | egrep "M|A|AM" | rev | cut -d" 
 
 ## node
 alias rmnode='rm -rf ./node_modules'
+alias nvmrc='node -v > .nvmrc'
 
 ## docker
 alias d='docker'
