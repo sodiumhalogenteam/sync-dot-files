@@ -147,9 +147,6 @@ eval $(thefuck --alias)
 alias please='fuck'
 alias pls='fuck'
 
-## hub
-alias git=hub
-
 ## git ssh key
 alias cpkey="pbcopy < ~/.ssh/id_rsa.pub"
 
