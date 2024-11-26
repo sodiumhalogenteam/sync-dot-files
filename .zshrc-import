@@ -150,6 +150,9 @@ alias pls='fuck'
 ## hub
 alias git=hub
 
+## github cli
+alias pr='gh pr create'
+
 ## git ssh key
 alias cpkey="pbcopy < ~/.ssh/id_rsa.pub"
 
